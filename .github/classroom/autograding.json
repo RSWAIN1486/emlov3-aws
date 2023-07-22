@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test Deployment",
+      "setup": "sudo -H pip3 install pytest gradio-client==0.2.9",
+      "run": "pytest -v -s --ignore old",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 300
+    }
+  ]
+}
